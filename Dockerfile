@@ -1,5 +1,5 @@
 FROM dimovnike/alpine-supervisord
-MAINTAINER nikolay dimov
+MAINTAINER nikolay dimov <>
 
 # add openssh and clean
 RUN apk add --update openssh && rm  -rf /tmp/* /var/cache/apk/*
